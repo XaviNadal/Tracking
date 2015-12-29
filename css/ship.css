@@ -41,6 +41,7 @@ border-radius: 200px 200px 200px 200px;
 -webkit-border-radius: 200px 200px 200px 200px;
 text-align: center;
 font-family: 'Titillium Web', sans-serif;
+width: 180px;
 }
 
 h1 {
@@ -100,5 +101,26 @@ footer {
     width: 100%;
     border-top: 1px solid #eee;
     padding: 10px;
+}
+
+@media (max-width:768px) {
+.logo {
+text-align: center;
+}
+.btn-principal {
+float: none;
+margin: 0 auto;
+margin-top: 20px;
+}
+.pull-right {
+float: none !important;
+}
+h1 {
+margin-top: 50px;
+
+}
+
+
+
 }
 
